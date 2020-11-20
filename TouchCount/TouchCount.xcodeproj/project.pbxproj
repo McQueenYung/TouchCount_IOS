@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F43C7E4215C67E81007A7632 /* TouchCount_57.png in Resources */ = {isa = PBXBuildFile; fileRef = F43C7E4115C67E81007A7632 /* TouchCount_57.png */; };
+		F43C7E4515C67E8C007A7632 /* TouchCount_114.png in Resources */ = {isa = PBXBuildFile; fileRef = F43C7E4415C67E8C007A7632 /* TouchCount_114.png */; };
+		F43C7E4915C67F54007A7632 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F43C7E4815C67F54007A7632 /* Default@2x.png */; };
+		F43C7E4A15C67F8C007A7632 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F43C7E4615C67F47007A7632 /* Default.png */; };
+		F4771D9C15C6687400028287 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4771D9B15C6687400028287 /* AVFoundation.framework */; };
+		F4771D9E15C674E400028287 /* button9.wav in Resources */ = {isa = PBXBuildFile; fileRef = F4771D9D15C674E400028287 /* button9.wav */; };
+		F4D37C7F15C59E35005C86B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D37C7E15C59E35005C86B9 /* UIKit.framework */; };
+		F4D37C8115C59E35005C86B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D37C8015C59E35005C86B9 /* Foundation.framework */; };
+		F4D37C8315C59E35005C86B9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D37C8215C59E35005C86B9 /* CoreGraphics.framework */; };
+		F4D37C8915C59E35005C86B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4D37C8715C59E35005C86B9 /* InfoPlist.strings */; };
+		F4D37C8B15C59E35005C86B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D37C8A15C59E35005C86B9 /* main.m */; };
+		F4D37C8F15C59E35005C86B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D37C8E15C59E35005C86B9 /* AppDelegate.m */; };
+		F4D37C9215C59E35005C86B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D37C9115C59E35005C86B9 /* ViewController.m */; };
+		F4D37C9515C59E35005C86B9 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D37C9315C59E35005C86B9 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F43C7E4115C67E81007A7632 /* TouchCount_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TouchCount_57.png; sourceTree = "<group>"; };
+		F43C7E4415C67E8C007A7632 /* TouchCount_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TouchCount_114.png; sourceTree = "<group>"; };
+		F43C7E4615C67F47007A7632 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F43C7E4815C67F54007A7632 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F4771D9B15C6687400028287 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F4771D9D15C674E400028287 /* button9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = button9.wav; sourceTree = "<group>"; };
+		F4D37C7A15C59E35005C86B9 /* TouchCount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4D37C7E15C59E35005C86B9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F4D37C8015C59E35005C86B9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F4D37C8215C59E35005C86B9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F4D37C8615C59E35005C86B9 /* TouchCount-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchCount-Info.plist"; sourceTree = "<group>"; };
+		F4D37C8815C59E35005C86B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4D37C8A15C59E35005C86B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4D37C8C15C59E35005C86B9 /* TouchCount-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TouchCount-Prefix.pch"; sourceTree = "<group>"; };
+		F4D37C8D15C59E35005C86B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F4D37C8E15C59E35005C86B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F4D37C9015C59E35005C86B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F4D37C9115C59E35005C86B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F4D37C9415C59E35005C86B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4D37C7715C59E35005C86B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4771D9C15C6687400028287 /* AVFoundation.framework in Frameworks */,
+				F4D37C7F15C59E35005C86B9 /* UIKit.framework in Frameworks */,
+				F4D37C8115C59E35005C86B9 /* Foundation.framework in Frameworks */,
+				F4D37C8315C59E35005C86B9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4D37C6F15C59E35005C86B9 = {
+			isa = PBXGroup;
+			children = (
+				F43C7E4815C67F54007A7632 /* Default@2x.png */,
+				F43C7E4615C67F47007A7632 /* Default.png */,
+				F43C7E4415C67E8C007A7632 /* TouchCount_114.png */,
+				F43C7E4115C67E81007A7632 /* TouchCount_57.png */,
+				F4D37C8415C59E35005C86B9 /* TouchCount */,
+				F4D37C7D15C59E35005C86B9 /* Frameworks */,
+				F4D37C7B15C59E35005C86B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4D37C7B15C59E35005C86B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4D37C7A15C59E35005C86B9 /* TouchCount.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4D37C7D15C59E35005C86B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4771D9B15C6687400028287 /* AVFoundation.framework */,
+				F4D37C7E15C59E35005C86B9 /* UIKit.framework */,
+				F4D37C8015C59E35005C86B9 /* Foundation.framework */,
+				F4D37C8215C59E35005C86B9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4D37C8415C59E35005C86B9 /* TouchCount */ = {
+			isa = PBXGroup;
+			children = (
+				F4771D9D15C674E400028287 /* button9.wav */,
+				F4D37C8D15C59E35005C86B9 /* AppDelegate.h */,
+				F4D37C8E15C59E35005C86B9 /* AppDelegate.m */,
+				F4D37C9015C59E35005C86B9 /* ViewController.h */,
+				F4D37C9115C59E35005C86B9 /* ViewController.m */,
+				F4D37C9315C59E35005C86B9 /* ViewController.xib */,
+				F4D37C8515C59E35005C86B9 /* Supporting Files */,
+			);
+			path = TouchCount;
+			sourceTree = "<group>";
+		};
+		F4D37C8515C59E35005C86B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4D37C8615C59E35005C86B9 /* TouchCount-Info.plist */,
+				F4D37C8715C59E35005C86B9 /* InfoPlist.strings */,
+				F4D37C8A15C59E35005C86B9 /* main.m */,
+				F4D37C8C15C59E35005C86B9 /* TouchCount-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4D37C7915C59E35005C86B9 /* TouchCount */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4D37C9815C59E35005C86B9 /* Build configuration list for PBXNativeTarget "TouchCount" */;
+			buildPhases = (
+				F4D37C7615C59E35005C86B9 /* Sources */,
+				F4D37C7715C59E35005C86B9 /* Frameworks */,
+				F4D37C7815C59E35005C86B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchCount;
+			productName = TouchCount;
+			productReference = F4D37C7A15C59E35005C86B9 /* TouchCount.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4D37C7115C59E35005C86B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "MacBook Air";
+			};
+			buildConfigurationList = F4D37C7415C59E35005C86B9 /* Build configuration list for PBXProject "TouchCount" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F4D37C6F15C59E35005C86B9;
+			productRefGroup = F4D37C7B15C59E35005C86B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4D37C7915C59E35005C86B9 /* TouchCount */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4D37C7815C59E35005C86B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D37C8915C59E35005C86B9 /* InfoPlist.strings in Resources */,
+				F4D37C9515C59E35005C86B9 /* ViewController.xib in Resources */,
+				F4771D9E15C674E400028287 /* button9.wav in Resources */,
+				F43C7E4215C67E81007A7632 /* TouchCount_57.png in Resources */,
+				F43C7E4515C67E8C007A7632 /* TouchCount_114.png in Resources */,
+				F43C7E4915C67F54007A7632 /* Default@2x.png in Resources */,
+				F43C7E4A15C67F8C007A7632 /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4D37C7615C59E35005C86B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D37C8B15C59E35005C86B9 /* main.m in Sources */,
+				F4D37C8F15C59E35005C86B9 /* AppDelegate.m in Sources */,
+				F4D37C9215C59E35005C86B9 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4D37C8715C59E35005C86B9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4D37C8815C59E35005C86B9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F4D37C9315C59E35005C86B9 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4D37C9415C59E35005C86B9 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4D37C9615C59E35005C86B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4D37C9715C59E35005C86B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4D37C9915C59E35005C86B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos5.1]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchCount/TouchCount-Prefix.pch";
+				INFOPLIST_FILE = "TouchCount/TouchCount-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos5.1]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F4D37C9A15C59E35005C86B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos5.1]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchCount/TouchCount-Prefix.pch";
+				INFOPLIST_FILE = "TouchCount/TouchCount-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos5.1]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4D37C7415C59E35005C86B9 /* Build configuration list for PBXProject "TouchCount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4D37C9615C59E35005C86B9 /* Debug */,
+				F4D37C9715C59E35005C86B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4D37C9815C59E35005C86B9 /* Build configuration list for PBXNativeTarget "TouchCount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4D37C9915C59E35005C86B9 /* Debug */,
+				F4D37C9A15C59E35005C86B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4D37C7115C59E35005C86B9 /* Project object */;
+}
